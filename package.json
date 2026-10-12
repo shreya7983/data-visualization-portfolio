@@ -1,0 +1,13 @@
+{
+  "name": "data-visualization-portfolio-root",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Root workspace runner for Shreya Kashyap's Data Atelier Portfolio",
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build"
+  }
+}

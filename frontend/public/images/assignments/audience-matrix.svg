@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #F7F7F4; }
+      .border { stroke: #DCDCDC; stroke-width: 1.5; fill: #FFFFFF; rx: 12px; }
+      .title { font-family: 'Inter', -apple-system, sans-serif; font-weight: 700; fill: #111111; }
+      .sub { font-family: 'Inter', -apple-system, sans-serif; font-size: 11px; fill: #666666; font-weight: 600; }
+      .text-cell { font-family: 'Inter', -apple-system, sans-serif; font-size: 9.5px; fill: #333333; }
+    </style>
+  </defs>
+
+  <rect width="800" height="500" class="bg" />
+
+  <!-- Top Header -->
+  <rect x="40" y="24" width="720" height="48" rx="8" fill="#111111" />
+  <circle cx="58" cy="48" r="4" fill="#E8C547" />
+  <text x="72" y="52" class="title" font-size="13.5" fill="#FFFFFF" letter-spacing="0.06em">LAB PRACTICAL: UNDERSTANDING AUDIENCE &amp; CONTEXT IN DATA VISUALIZATION</text>
+  <text x="740" y="52" class="sub" font-size="10" fill="#E8C547" text-anchor="end">EXCEL PRACTICALS • SHREYA KASHYAP (23145028)</text>
+
+  <!-- Problem 1: College Placement Review (General Board Audience) -->
+  <g transform="translate(40, 84)">
+    <rect width="350" height="350" class="border" />
+    <path d="M 0 12 Q 0 0 12 0 L 338 0 Q 350 0 350 12 L 350 36 L 0 36 Z" fill="#ECECE8" />
+    <rect x="12" y="12" width="6" height="12" rx="3" fill="#E8C547" />
+    <text x="26" y="24" class="title" font-size="11">PROBLEM 1: COLLEGE PLACEMENT REVIEW</text>
+    <text x="336" y="24" font-family="'Inter', sans-serif" font-size="9" font-weight="700" fill="#888" text-anchor="end">EXECUTIVE</text>
+
+    <!-- Context & Audience Badges -->
+    <g transform="translate(14, 46)">
+      <rect width="154" height="44" rx="6" fill="#FBFBFA" stroke="#EFEFEA" />
+      <text x="8" y="16" class="title" font-size="9.5" fill="#666">AUDIENCE</text>
+      <text x="8" y="32" class="title" font-size="10">Governing Board</text>
+
+      <g transform="translate(162, 0)">
+        <rect width="158" height="44" rx="6" fill="#FBFBFA" stroke="#EFEFEA" />
+        <text x="8" y="16" class="title" font-size="9.5" fill="#666">CHOSEN CHART</text>
+        <text x="8" y="32" class="title" font-size="10" fill="#111">Grouped Column</text>
+      </g>
+    </g>
+
+    <!-- Excel Visual Representation -->
+    <g transform="translate(14, 98)">
+      <rect width="320" height="136" rx="8" fill="#FBFBFA" stroke="#EFEFEA" />
+      <text x="12" y="18" class="title" font-size="9.5">Department Placement Rates (2023 vs 2024 vs 2025)</text>
+      
+      <!-- Bars for CSE -->
+      <rect x="30" y="56" width="10" height="58" fill="#888" />
+      <rect x="42" y="52" width="10" height="62" fill="#111" />
+      <rect x="54" y="46" width="10" height="68" fill="#E8C547" />
+      <text x="47" y="126" class="text-cell" text-anchor="middle">CSE</text>
+
+      <!-- Bars for ECE -->
+      <rect x="80" y="64" width="10" height="50" fill="#888" />
+      <rect x="92" y="60" width="10" height="54" fill="#111" />
+      <rect x="104" y="55" width="10" height="59" fill="#E8C547" />
+      <text x="97" y="126" class="text-cell" text-anchor="middle">ECE</text>
+
+      <!-- Bars for Mech -->
+      <rect x="130" y="69" width="10" height="45" fill="#888" />
+      <rect x="142" y="66" width="10" height="48" fill="#111" />
+      <rect x="154" y="68" width="10" height="46" fill="#E8C547" />
+      <text x="147" y="126" class="text-cell" text-anchor="middle">Mech</text>
+
+      <!-- Bars for Civil -->
+      <rect x="180" y="74" width="10" height="40" fill="#888" />
+      <rect x="192" y="71" width="10" height="43" fill="#111" />
+      <rect x="204" y="69" width="10" height="45" fill="#E8C547" />
+      <text x="197" y="126" class="text-cell" text-anchor="middle">Civil</text>
+
+      <!-- Bars for MBA -->
+      <rect x="230" y="62" width="10" height="52" fill="#888" />
+      <rect x="242" y="59" width="10" height="55" fill="#111" />
+      <rect x="254" y="54" width="10" height="60" fill="#E8C547" />
+      <text x="247" y="126" class="text-cell" text-anchor="middle">MBA</text>
+
+      <!-- Legend -->
+      <rect x="268" y="28" width="8" height="8" fill="#888" />
+      <text x="280" y="35" class="text-cell" font-size="8.5">23</text>
+      <rect x="268" y="39" width="8" height="8" fill="#111" />
+      <text x="280" y="46" class="text-cell" font-size="8.5">24</text>
+      <rect x="268" y="50" width="8" height="8" fill="#E8C547" />
+      <text x="280" y="57" class="text-cell" font-size="8.5">25</text>
+    </g>
+
+    <!-- Matrix Summary -->
+    <g transform="translate(14, 244)">
+      <rect width="320" height="92" rx="6" fill="#111111" />
+      <text x="12" y="18" class="title" font-size="9.5" fill="#FFFFFF">7-W AUDIENCE MATRIX HIGHLIGHTS</text>
+      <text x="12" y="34" font-family="'Inter', sans-serif" font-size="9" fill="#E8C547">• Who: Governing Board (Non-specialists)</text>
+      <text x="12" y="48" font-family="'Inter', sans-serif" font-size="9" fill="#DDD">• Why: Vote on remedial coaching program funding</text>
+      <text x="12" y="62" font-family="'Inter', sans-serif" font-size="9" fill="#DDD">• How: Clean grouped columns with direct data callouts</text>
+      <text x="12" y="76" font-family="'Inter', sans-serif" font-size="9" fill="#DDD">• Decision: Fast executive comprehension without cognitive lag</text>
+    </g>
+  </g>
+
+  <!-- Problem 2: Study Habits Investigation (Technical Audience) -->
+  <g transform="translate(410, 84)">
+    <rect width="350" height="350" class="border" />
+    <path d="M 0 12 Q 0 0 12 0 L 338 0 Q 350 0 350 12 L 350 36 L 0 36 Z" fill="#ECECE8" />
+    <rect x="12" y="12" width="6" height="12" rx="3" fill="#E8C547" />
+    <text x="26" y="24" class="title" font-size="11">PROBLEM 2: STUDY HABITS INVESTIGATION</text>
+    <text x="336" y="24" font-family="'Inter', sans-serif" font-size="9" font-weight="700" fill="#888" text-anchor="end">TECHNICAL</text>
+
+    <!-- Context & Audience Badges -->
+    <g transform="translate(14, 46)">
+      <rect width="154" height="44" rx="6" fill="#FBFBFA" stroke="#EFEFEA" />
+      <text x="8" y="16" class="title" font-size="9.5" fill="#666">AUDIENCE</text>
+      <text x="8" y="32" class="title" font-size="10">Analytics Team</text>
+
+      <g transform="translate(162, 0)">
+        <rect width="158" height="44" rx="6" fill="#FBFBFA" stroke="#EFEFEA" />
+        <text x="8" y="16" class="title" font-size="9.5" fill="#666">CHOSEN CHART</text>
+        <text x="8" y="32" class="title" font-size="10" fill="#111">Scatter + Trendline</text>
+      </g>
+    </g>
+
+    <!-- Excel Visual Representation (Scatter Plot) -->
+    <g transform="translate(14, 98)">
+      <rect width="320" height="136" rx="8" fill="#FBFBFA" stroke="#EFEFEA" />
+      <text x="12" y="18" class="title" font-size="9.5">Study Hours vs. Exam Marks (S1 to S10)</text>
+      
+      <line x1="30" y1="114" x2="300" y2="114" stroke="#888" stroke-width="1" />
+      <line x1="30" y1="30" x2="30" y2="114" stroke="#888" stroke-width="1" />
+      
+      <!-- Trendline -->
+      <line x1="40" y1="106" x2="290" y2="34" stroke="#E8C547" stroke-width="2.5" stroke-dasharray="4 2" />
+
+      <!-- Scatter Points S1-S10 -->
+      <circle cx="80" cy="88" r="4" fill="#111" />
+      <circle cx="230" cy="48" r="4" fill="#111" />
+      <circle cx="50" cy="105" r="4" fill="#111" />
+      <circle cx="150" cy="72" r="4" fill="#111" />
+      <circle cx="280" cy="42" r="4" fill="#111" />
+      <circle cx="100" cy="84" r="4" fill="#111" />
+      <circle cx="190" cy="62" r="4" fill="#111" />
+      <circle cx="42" cy="110" r="4" fill="#111" />
+      <circle cx="170" cy="68" r="4" fill="#111" />
+      <circle cx="260" cy="45" r="4" fill="#111" />
+
+      <text x="210" y="104" font-family="'Inter', sans-serif" font-size="8.5" font-weight="700" fill="#111">y = 3.9x + 36.2 (R² = 0.94)</text>
+    </g>
+
+    <!-- Matrix Summary -->
+    <g transform="translate(14, 244)">
+      <rect width="320" height="92" rx="6" fill="#111111" />
+      <text x="12" y="18" class="title" font-size="9.5" fill="#FFFFFF">7-W AUDIENCE MATRIX HIGHLIGHTS</text>
+      <text x="12" y="34" font-family="'Inter', sans-serif" font-size="9" fill="#E8C547">• Who: Data Analytics Specialists</text>
+      <text x="12" y="48" font-family="'Inter', sans-serif" font-size="9" fill="#DDD">• Why: Calibrate thresholds for predictive intervention</text>
+      <text x="12" y="62" font-family="'Inter', sans-serif" font-size="9" fill="#DDD">• How: Bivariate Scatter Plot with regression line &amp; R²</text>
+      <text x="12" y="76" font-family="'Inter', sans-serif" font-size="9" fill="#DDD">• Action: Establish intervention cutoffs (&lt;6 hrs &amp; &lt;75% att)</text>
+    </g>
+  </g>
+
+  <!-- Bottom Strip -->
+  <rect x="40" y="444" width="720" height="34" rx="6" fill="#FFFFFF" stroke="#DCDCDC" />
+  <text x="56" y="465" class="sub" font-size="10">SUBMISSION: GOOGLE DOCS // EXCEL WORKBOOK // BCA VII SEMESTER, DSVV</text>
+</svg>

@@ -1,0 +1,130 @@
+:root {
+  /* ========================================================
+     ACADEMIC DATA VISUALIZATION PORTFOLIO COLOR SYSTEM
+     80% White/Off-White, 15% Black/Gray, 5% Warm Yellow Accent
+     ======================================================== */
+
+  /* Primary Black */
+  --color-primary-black: #111111;
+  --color-black: #111111;
+
+  /* Off-White: Main Background */
+  --color-off-white: #F7F7F4;
+  --color-bg-main: #F7F7F4;
+  --color-warm-beige: #F7F7F4;
+  --color-warm-beige-light: #FAFAF7;
+  --color-warm-beige-border: #DCDCDC;
+
+  /* Primary Surface: White */
+  --color-surface-white: #FFFFFF;
+  --color-card-white: #FFFFFF;
+  --color-soft-cream: #FFFFFF;
+  --color-soft-cream-card: #FFFFFF;
+  --color-soft-cream-border: #DCDCDC;
+
+  /* Accent Highlight: Warm Yellow (Strictly ~5% accent) */
+  --color-yellow-accent: #E8C547;
+  --color-yellow-light: #FBF6DF;
+  --color-yellow-hover: #D4B33C;
+  --color-yellow-glow: rgba(232, 197, 71, 0.25);
+  --color-warm-gold: #E8C547;
+  --color-warm-gold-hover: #D4B33C;
+  --color-warm-gold-light: #FBF6DF;
+  --color-warm-gold-border: #DCDCDC;
+
+  /* Dark Accent & Strong UI Elements */
+  --color-dark-teal: #111111;
+  --color-deep-teal: #111111;
+  --color-deep-crimson: #111111;
+  --color-deep-crimson-hover: #222222;
+  --color-deep-crimson-light: #F4F4F0;
+  --color-deep-crimson-glow: rgba(232, 197, 71, 0.20);
+  --color-deep-burgundy: #111111;
+  --color-deep-burgundy-dark: #000000;
+  --color-deep-burgundy-muted: #666666;
+  --color-deep-burgundy-light: rgba(17, 17, 17, 0.65);
+  --color-deep-burgundy-faint: rgba(17, 17, 17, 0.04);
+
+  /* Secondary & Muted Elements */
+  --color-secondary-teal: #666666;
+  --color-muted-rose: #666666;
+  --color-muted-rose-light: #F4F4F0;
+  --color-muted-rose-border: #DCDCDC;
+  --color-soft-teal: #F4F4F0;
+
+  /* Primary & Secondary Text Tokens */
+  --color-text-main: #111111;
+  --color-text-muted: #666666;
+  --color-text-secondary: #666666;
+  --color-border-subtle: #DCDCDC;
+  --color-border: #DCDCDC;
+
+  /* Legacy aliases for subpages */
+  --color-warm-ivory: var(--color-off-white);
+  --color-warm-ivory-light: #FFFFFF;
+  --color-warm-ivory-card: #FFFFFF;
+  --color-warm-ivory-border: #DCDCDC;
+  --color-deep-olive: #111111;
+  --color-deep-olive-muted: #666666;
+  --color-deep-olive-light: rgba(17, 17, 17, 0.65);
+  --color-deep-olive-faint: rgba(17, 17, 17, 0.04);
+  --color-sage: #111111;
+  --color-sage-light: #F4F4F0;
+  --color-sage-dark: #222222;
+  --color-dusty-lavender: #666666;
+  --color-dusty-lavender-light: #F4F4F0;
+  --color-muted-peach: #666666;
+  --color-muted-peach-light: #F4F4F0;
+  --color-soft-gold: #E8C547;
+  --color-soft-gold-light: #FBF6DF;
+
+  /* Typography System — Pure Professional Inter */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-serif: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Spacing */
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 32px;
+  --space-xl: 48px;
+  --space-2xl: 64px;
+  --space-3xl: 96px;
+  --space-4xl: 128px;
+
+  /* Layout */
+  --max-width: 1400px;
+  --gutter: 48px;
+  --border-radius-xs: 6px;
+  --border-radius-sm: 10px;
+  --border-radius-md: 12px;
+  --border-radius-lg: 20px;
+  --border-radius-xl: 24px;
+  --border-radius-full: 9999px;
+
+  /* Hairline Borders */
+  --border-hairline: 1px solid #DCDCDC;
+  --border-hairline-dark: 1px solid rgba(255, 255, 255, 0.15);
+
+  /* Shadows: Clean & Subtle */
+  --shadow-subtle: 0 2px 12px rgba(0, 0, 0, 0.04);
+  --shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.07);
+  --shadow-lift: 0 16px 36px rgba(0, 0, 0, 0.10);
+
+  /* Transitions */
+  --transition-fast: 200ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-base: 350ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: 500ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (max-width: 768px) {
+  :root {
+    --gutter: 20px;
+    --space-xl: 32px;
+    --space-2xl: 48px;
+    --space-3xl: 64px;
+    --space-4xl: 80px;
+  }
+}

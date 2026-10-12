@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #F7F7F4; }
+      .border { stroke: #DCDCDC; stroke-width: 1.5; fill: #FFFFFF; rx: 12px; }
+      .card-header { fill: #ECECE8; }
+      .title { font-family: 'Inter', -apple-system, sans-serif; font-weight: 700; fill: #111111; }
+      .sub { font-family: 'Inter', -apple-system, sans-serif; font-size: 11px; fill: #666666; letter-spacing: 0.05em; font-weight: 600; }
+      .text-desc { font-family: 'Inter', -apple-system, sans-serif; font-size: 9.5px; fill: #666666; }
+    </style>
+  </defs>
+
+  <rect width="800" height="500" class="bg" />
+  <line x1="40" y1="80" x2="760" y2="80" stroke="#E5E5E0" stroke-width="1" />
+  <line x1="40" y1="450" x2="760" y2="450" stroke="#E5E5E0" stroke-width="1" />
+
+  <rect x="40" y="24" width="720" height="46" rx="8" fill="#111111" />
+  <circle cx="58" cy="47" r="4" fill="#E8C547" />
+  <text x="72" y="51" class="title" font-size="14" fill="#FFFFFF" letter-spacing="0.06em">VISUALIZE IT! — TYPES OF DATA VISUALIZATION CHEAT SHEET</text>
+  <text x="740" y="51" class="sub" font-size="10" fill="#E8C547" text-anchor="end">BCA VII // SHREYA KASHYAP (23145028)</text>
+
+  <!-- 1. Categorical Charts -->
+  <g transform="translate(40, 92)">
+    <rect width="226" height="340" class="border" />
+    <path d="M 0 12 Q 0 0 12 0 L 214 0 Q 226 0 226 12 L 226 36 L 0 36 Z" class="card-header" />
+    <rect x="14" y="12" width="6" height="12" rx="3" fill="#E8C547" />
+    <text x="28" y="24" class="title" font-size="12">1. CHARTS (CATEGORICAL)</text>
+    
+    <g transform="translate(14, 50)">
+      <rect x="0" y="0" width="198" height="60" rx="8" fill="#FBFBFA" stroke="#EFEFEA" />
+      <rect x="12" y="32" width="6" height="16" fill="#111111" rx="1" />
+      <rect x="22" y="20" width="6" height="28" fill="#E8C547" rx="1" />
+      <rect x="32" y="26" width="6" height="22" fill="#111111" rx="1" />
+      <line x1="8" y1="48" x2="42" y2="48" stroke="#888888" stroke-width="1" />
+      <text x="52" y="24" class="title" font-size="11">Bar &amp; Column Chart</text>
+      <text x="52" y="38" class="text-desc">Discrete categorical comparisons</text>
+      <text x="52" y="49" class="text-desc" fill="#888">Baseline always starts at zero</text>
+    </g>
+
+    <g transform="translate(14, 120)">
+      <rect x="0" y="0" width="198" height="60" rx="8" fill="#FBFBFA" stroke="#EFEFEA" />
+      <circle cx="26" cy="30" r="14" fill="none" stroke="#111111" stroke-width="6" />
+      <circle cx="26" cy="30" r="14" fill="none" stroke="#E8C547" stroke-width="6" stroke-dasharray="25 65" stroke-dashoffset="10" />
+      <text x="52" y="24" class="title" font-size="11">Donut &amp; Pie Chart</text>
+      <text x="52" y="38" class="text-desc">Part-to-whole composition</text>
+      <text x="52" y="49" class="text-desc" fill="#888">Best for &lt; 5 distinct segments</text>
+    </g>
+
+    <g transform="translate(14, 190)">
+      <rect x="0" y="0" width="198" height="60" rx="8" fill="#FBFBFA" stroke="#EFEFEA" />
+      <rect x="12" y="16" width="16" height="28" fill="#111111" rx="1" />
+      <rect x="30" y="16" width="12" height="13" fill="#E8C547" rx="1" />
+      <rect x="30" y="31" width="12" height="13" fill="#888888" rx="1" />
+      <text x="52" y="24" class="title" font-size="11">Treemap</text>
+      <text x="52" y="38" class="text-desc">Hierarchical nested proportions</text>
+      <text x="52" y="49" class="text-desc" fill="#888">High density screen space use</text>
+    </g>
+
+    <g transform="translate(14, 260)">
+      <rect x="0" y="0" width="198" height="60" rx="8" fill="#FBFBFA" stroke="#EFEFEA" />
+      <rect x="12" y="20" width="28" height="10" fill="#111111" rx="1" />
+      <rect x="24" y="20" width="10" height="10" fill="#E8C547" rx="1" />
+      <rect x="12" y="34" width="28" height="10" fill="#888888" rx="1" />
+      <rect x="20" y="34" width="12" height="10" fill="#E8C547" rx="1" />
+      <text x="52" y="24" class="title" font-size="11">Stacked Bar Chart</text>
+      <text x="52" y="38" class="text-desc">Multi-group segment breakdown</text>
+      <text x="52" y="49" class="text-desc" fill="#888">Shows total and internal share</text>
+    </g>
+  </g>
+
+  <!-- 2. Mathematical Graphs -->
+  <g transform="translate(286, 92)">
+    <rect width="228" height="340" class="border" />
+    <path d="M 0 12 Q 0 0 12 0 L 216 0 Q 228 0 228 12 L 228 36 L 0 36 Z" class="card-header" />
+    <rect x="14" y="12" width="6" height="12" rx="3" fill="#E8C547" />
+    <text x="28" y="24" class="title" font-size="12">2. GRAPHS (COORDINATE/TREND)</text>
+
+    <g transform="translate(14, 50)">
+      <rect x="0" y="0" width="200" height="60" rx="8" fill="#FBFBFA" stroke="#EFEFEA" />
+      <line x1="12" y1="44" x2="42" y2="44" stroke="#888" stroke-width="1" />
+      <line x1="12" y1="16" x2="12" y2="44" stroke="#888" stroke-width="1" />
+      <polyline points="14,40 22,28 30,34 40,18" fill="none" stroke="#E8C547" stroke-width="2.5" />
+      <circle cx="40" cy="18" r="2.5" fill="#111111" />
+      <text x="52" y="24" class="title" font-size="11">Line Graph</text>
+      <text x="52" y="38" class="text-desc">Continuous time-series tracking</text>
+      <text x="52" y="49" class="text-desc" fill="#888">Highlights rate of change &amp; peaks</text>
+    </g>
+
+    <g transform="translate(14, 120)">
+      <rect x="0" y="0" width="200" height="60" rx="8" fill="#FBFBFA" stroke="#EFEFEA" />
+      <circle cx="16" cy="40" r="2.5" fill="#111111" />
+      <circle cx="22" cy="32" r="2.5" fill="#111111" />
+      <circle cx="28" cy="24" r="2.5" fill="#E8C547" />
+      <circle cx="34" cy="28" r="2.5" fill="#111111" />
+      <circle cx="40" cy="18" r="2.5" fill="#E8C547" />
+      <line x1="14" y1="42" x2="42" y2="16" stroke="#888" stroke-width="1" stroke-dasharray="2 2" />
+      <text x="52" y="24" class="title" font-size="11">Scatter Plot</text>
+      <text x="52" y="38" class="text-desc">Bivariate continuous correlation</text>
+      <text x="52" y="49" class="text-desc" fill="#888">Detects clusters &amp; outliers</text>
+    </g>
+
+    <g transform="translate(14, 190)">
+      <rect x="0" y="0" width="200" height="60" rx="8" fill="#FBFBFA" stroke="#EFEFEA" />
+      <rect x="12" y="36" width="6" height="12" fill="#888" />
+      <rect x="18" y="24" width="6" height="24" fill="#111111" />
+      <rect x="24" y="18" width="6" height="30" fill="#E8C547" />
+      <rect x="30" y="26" width="6" height="22" fill="#111111" />
+      <rect x="36" y="38" width="6" height="10" fill="#888" />
+      <text x="52" y="24" class="title" font-size="11">Histogram</text>
+      <text x="52" y="38" class="text-desc">Frequency distribution &amp; spread</text>
+      <text x="52" y="49" class="text-desc" fill="#888">Uniform continuous bins on x-axis</text>
+    </g>
+
+    <g transform="translate(14, 260)">
+      <rect x="0" y="0" width="200" height="60" rx="8" fill="#FBFBFA" stroke="#EFEFEA" />
+      <polygon points="12,46 20,32 30,38 42,22 42,46" fill="#FFF2B2" />
+      <polyline points="12,46 20,32 30,38 42,22" fill="none" stroke="#E8C547" stroke-width="2" />
+      <line x1="10" y1="46" x2="44" y2="46" stroke="#888" stroke-width="1" />
+      <text x="52" y="24" class="title" font-size="11">Area Graph</text>
+      <text x="52" y="38" class="text-desc">Cumulative magnitude over time</text>
+      <text x="52" y="49" class="text-desc" fill="#888">Shows total volume &amp; trend</text>
+    </g>
+  </g>
+
+  <!-- 3. Maps -->
+  <g transform="translate(534, 92)">
+    <rect width="226" height="340" class="border" />
+    <path d="M 0 12 Q 0 0 12 0 L 214 0 Q 226 0 226 12 L 226 36 L 0 36 Z" class="card-header" />
+    <rect x="14" y="12" width="6" height="12" rx="3" fill="#E8C547" />
+    <text x="28" y="24" class="title" font-size="12">3. MAPS (GEOSPATIAL)</text>
+
+    <g transform="translate(14, 50)">
+      <rect x="0" y="0" width="198" height="60" rx="8" fill="#FBFBFA" stroke="#EFEFEA" />
+      <rect x="14" y="20" width="14" height="12" fill="#E8C547" stroke="#111" stroke-width="0.8" />
+      <rect x="28" y="20" width="14" height="12" fill="#111111" stroke="#111" stroke-width="0.8" />
+      <rect x="14" y="32" width="14" height="14" fill="#E5E5E0" stroke="#111" stroke-width="0.8" />
+      <rect x="28" y="32" width="14" height="14" fill="#F2D879" stroke="#111" stroke-width="0.8" />
+      <text x="52" y="24" class="title" font-size="11">Choropleth Map</text>
+      <text x="52" y="38" class="text-desc">Shading by density/metric</text>
+      <text x="52" y="49" class="text-desc" fill="#888">Normalize by population</text>
+    </g>
+
+    <g transform="translate(14, 120)">
+      <rect x="0" y="0" width="198" height="60" rx="8" fill="#FBFBFA" stroke="#EFEFEA" />
+      <circle cx="20" cy="30" r="8" fill="#E8C547" opacity="0.8" stroke="#111" stroke-width="0.8" />
+      <circle cx="34" cy="24" r="4" fill="#111111" opacity="0.8" />
+      <circle cx="32" cy="38" r="6" fill="#111111" opacity="0.8" />
+      <text x="52" y="24" class="title" font-size="11">Symbol / Bubble Map</text>
+      <text x="52" y="38" class="text-desc">Point-level proportional bubbles</text>
+      <text x="52" y="49" class="text-desc" fill="#888">Avoids area polygon distortion</text>
+    </g>
+
+    <g transform="translate(14, 190)">
+      <rect x="0" y="0" width="198" height="60" rx="8" fill="#FBFBFA" stroke="#EFEFEA" />
+      <path d="M 14 38 Q 28 16 42 26" fill="none" stroke="#E8C547" stroke-width="2.5" />
+      <circle cx="14" cy="38" r="3" fill="#111111" />
+      <polygon points="42,26 36,23 37,29" fill="#111111" />
+      <text x="52" y="24" class="title" font-size="11">Flow / Route Map</text>
+      <text x="52" y="38" class="text-desc">Origin-destination paths &amp; trade</text>
+      <text x="52" y="49" class="text-desc" fill="#888">Line weight encodes volume</text>
+    </g>
+
+    <g transform="translate(14, 260)">
+      <rect x="0" y="0" width="198" height="60" rx="8" fill="#FBFBFA" stroke="#EFEFEA" />
+      <circle cx="28" cy="32" r="14" fill="#F2D879" opacity="0.5" />
+      <circle cx="28" cy="32" r="9" fill="#E8C547" opacity="0.8" />
+      <circle cx="28" cy="32" r="4" fill="#111111" />
+      <text x="52" y="24" class="title" font-size="11">Density Heatmap</text>
+      <text x="52" y="38" class="text-desc">Spatial concentration intensity</text>
+      <text x="52" y="49" class="text-desc" fill="#888">Continuous clustering gradient</text>
+    </g>
+  </g>
+
+  <rect x="40" y="444" width="720" height="36" rx="6" fill="#FFFFFF" stroke="#DCDCDC" />
+  <text x="56" y="466" class="sub" font-size="10.5">ACADEMIC SUBMISSION: DEV SANSKRITI VISHWAVIDYALAYA // LINKEDIN: lnkd.in/p/g_HzWZzR</text>
+  <rect x="670" y="451" width="76" height="22" rx="4" fill="#0A66C2" />
+  <text x="708" y="466" font-family="'Inter', sans-serif" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle">LINKEDIN</text>
+</svg>

@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #F7F7F4; }
+      .border { stroke: #DCDCDC; stroke-width: 1.5; fill: #FFFFFF; rx: 12px; }
+      .title { font-family: 'Inter', -apple-system, sans-serif; font-weight: 700; fill: #111111; }
+      .sub { font-family: 'Inter', -apple-system, sans-serif; font-size: 11px; fill: #666666; font-weight: 600; }
+      .text-body { font-family: 'Inter', -apple-system, sans-serif; font-size: 10px; fill: #444444; line-height: 1.5; }
+    </style>
+  </defs>
+
+  <rect width="800" height="500" class="bg" />
+
+  <!-- Top Publication Bar -->
+  <rect x="40" y="24" width="720" height="54" rx="10" fill="#FFFFFF" stroke="#DCDCDC" />
+  <rect x="56" y="36" width="30" height="30" rx="6" fill="#0A66C2" />
+  <text x="71" y="56" font-family="'Inter', sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="middle">in</text>
+  <text x="98" y="46" class="title" font-size="13">FROM LEARNING TO LINKEDIN: EXPLORE THE POWER OF DATA VISUALIZATION</text>
+  <text x="98" y="60" class="sub" font-size="10.5">Published by Shreya Kashyap // BCA VII Semester • Dept. of Computer Science, DSVV</text>
+  <rect x="664" y="38" width="82" height="26" rx="6" fill="#111111" />
+  <text x="705" y="55" font-family="'Inter', sans-serif" font-size="10" font-weight="700" fill="#E8C547" text-anchor="middle">PUBLISHED</text>
+
+  <!-- Left Column: Blog Content Card -->
+  <g transform="translate(40, 92)">
+    <rect width="470" height="376" class="border" />
+    
+    <!-- Section 1 -->
+    <g transform="translate(24, 24)">
+      <rect x="0" y="0" width="18" height="18" rx="4" fill="#E8C547" />
+      <text x="9" y="13" font-family="'Inter', sans-serif" font-size="11" font-weight="800" fill="#111111" text-anchor="middle">1</text>
+      <text x="26" y="14" class="title" font-size="12">The Cognitive Shift: From Numbers to Meaning</text>
+      <text x="0" y="34" class="text-body">The human brain processes visual scenes in less than 250 milliseconds through pre-attentive</text>
+      <text x="0" y="48" class="text-body">visual attributes (position, length, color). Visual encoding transforms raw table rows</text>
+      <text x="0" y="62" class="text-body">into immediate cognitive pattern comprehension and actionable intelligence.</text>
+    </g>
+
+    <!-- Section 2 -->
+    <g transform="translate(24, 110)">
+      <rect x="0" y="0" width="18" height="18" rx="4" fill="#111111" />
+      <text x="9" y="13" font-family="'Inter', sans-serif" font-size="11" font-weight="800" fill="#FFFFFF" text-anchor="middle">2</text>
+      <text x="26" y="14" class="title" font-size="12">The Triad: Accuracy, Clarity, and Visual Hierarchy</text>
+      <text x="0" y="34" class="text-body">A compelling visualization achieves three simultaneous goals: mathematical data integrity,</text>
+      <text x="0" y="48" class="text-body">ruthless clarity eliminating chartjunk, and an intentional visual hierarchy directing attention</text>
+      <text x="0" y="62" class="text-body">straight to the core analytical takeaway.</text>
+    </g>
+
+    <!-- Section 3 -->
+    <g transform="translate(24, 196)">
+      <rect x="0" y="0" width="18" height="18" rx="4" fill="#E8C547" />
+      <text x="9" y="13" font-family="'Inter', sans-serif" font-size="11" font-weight="800" fill="#111111" text-anchor="middle">3</text>
+      <text x="26" y="14" class="title" font-size="12">Real-World Decision Impact</text>
+      <text x="0" y="34" class="text-body">From public governance detecting paper leaks to commercial retail optimizing margins,</text>
+      <text x="0" y="48" class="text-body">executive dashboards compress multi-source complexities into confident, data-backed choices.</text>
+    </g>
+
+    <!-- Section 4 -->
+    <g transform="translate(24, 276)">
+      <rect x="0" y="0" width="18" height="18" rx="4" fill="#111111" />
+      <text x="9" y="13" font-family="'Inter', sans-serif" font-size="11" font-weight="800" fill="#FFFFFF" text-anchor="middle">4</text>
+      <text x="26" y="14" class="title" font-size="12">Why Public Knowledge Sharing Matters</text>
+      <text x="0" y="34" class="text-body">Transitioning "from learning to LinkedIn" turns passive student absorption into active</text>
+      <text x="0" y="48" class="text-body">professional thought leadership, inviting peer critique and fostering confidence.</text>
+    </g>
+  </g>
+
+  <!-- Right Column: Visual Infographic Models -->
+  <g transform="translate(526, 92)">
+    <rect width="234" height="376" class="border" />
+    
+    <g transform="translate(18, 20)">
+      <text x="0" y="14" class="title" font-size="11.5">PRE-ATTENTIVE PROCESSING</text>
+      <rect x="0" y="24" width="198" height="74" rx="8" fill="#FBFBFA" stroke="#EFEFEA" />
+      <rect x="14" y="40" width="12" height="42" fill="#E8C547" rx="2" />
+      <rect x="32" y="56" width="12" height="26" fill="#111111" rx="2" />
+      <rect x="50" y="64" width="12" height="18" fill="#DCDCDC" rx="2" />
+      <text x="76" y="52" class="title" font-size="10">&lt; 250 ms</text>
+      <text x="76" y="66" class="sub" font-size="9">Visual cortex detection</text>
+    </g>
+
+    <g transform="translate(18, 134)">
+      <text x="0" y="14" class="title" font-size="11.5">ANALYTICAL TRIAD MODEL</text>
+      <rect x="0" y="24" width="198" height="96" rx="8" fill="#FBFBFA" stroke="#EFEFEA" />
+      <polygon points="99,34 39,102 159,102" fill="none" stroke="#E8C547" stroke-width="2" />
+      <circle cx="99" cy="34" r="4" fill="#111111" />
+      <circle cx="39" cy="102" r="4" fill="#111111" />
+      <circle cx="159" cy="102" r="4" fill="#111111" />
+      <text x="99" y="26" font-family="'Inter', sans-serif" font-size="8.5" font-weight="700" fill="#111" text-anchor="middle">ACCURACY</text>
+      <text x="34" y="114" font-family="'Inter', sans-serif" font-size="8.5" font-weight="700" fill="#111" text-anchor="middle">CLARITY</text>
+      <text x="164" y="114" font-family="'Inter', sans-serif" font-size="8.5" font-weight="700" fill="#111" text-anchor="middle">HIERARCHY</text>
+    </g>
+
+    <g transform="translate(18, 274)">
+      <rect x="0" y="0" width="198" height="78" rx="8" fill="#111111" />
+      <text x="14" y="24" class="title" font-size="11" fill="#FFFFFF">LIVE SUBMISSION</text>
+      <text x="14" y="40" class="sub" font-size="9.5" fill="#E8C547">LinkedIn Verified Article</text>
+      <text x="14" y="56" font-family="monospace" font-size="9" fill="#BBBBBB">lnkd.in/p/gCeDkaHk</text>
+      <circle cx="178" cy="39" r="10" fill="#0A66C2" />
+      <text x="178" y="43" font-family="'Inter', sans-serif" font-size="9" font-weight="800" fill="#FFFFFF" text-anchor="middle">in</text>
+    </g>
+  </g>
+</svg>

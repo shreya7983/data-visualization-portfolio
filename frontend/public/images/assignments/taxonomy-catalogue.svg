@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #F7F7F4; }
+      .border { stroke: #DCDCDC; stroke-width: 1.5; fill: #FFFFFF; rx: 12px; }
+      .title { font-family: 'Inter', -apple-system, sans-serif; font-weight: 700; fill: #111111; }
+      .sub { font-family: 'Inter', -apple-system, sans-serif; font-size: 11px; fill: #666666; font-weight: 600; }
+      .accent { fill: #E8C547; }
+    </style>
+  </defs>
+
+  <rect width="800" height="500" class="bg" />
+
+  <!-- Top Header -->
+  <rect x="40" y="24" width="720" height="50" rx="8" fill="#111111" />
+  <circle cx="60" cy="49" r="4" fill="#E8C547" />
+  <text x="74" y="53" class="title" font-size="13.5" fill="#FFFFFF" letter-spacing="0.06em">LEARNING ACTIVITY: DATA VISUALIZATION FOUNDATIONS &amp; TAXONOMY</text>
+  <text x="740" y="53" class="sub" font-size="10" fill="#E8C547" text-anchor="end">TABLEAU • SLIDEMODEL • DATAVIZCATALOGUE</text>
+
+  <!-- Left: Chart vs. Graph Distinction -->
+  <g transform="translate(40, 88)">
+    <rect width="346" height="344" class="border" />
+    <path d="M 0 12 Q 0 0 12 0 L 334 0 Q 346 0 346 12 L 346 38 L 0 38 Z" fill="#ECECE8" />
+    <rect x="14" y="13" width="6" height="12" rx="3" fill="#E8C547" />
+    <text x="28" y="25" class="title" font-size="11.5">CHART vs. GRAPH: THE MATHEMATICAL DISTINCTION</text>
+
+    <!-- Chart Block -->
+    <g transform="translate(16, 52)">
+      <rect x="0" y="0" width="314" height="106" rx="8" fill="#FBFBFA" stroke="#EFEFEA" />
+      <rect x="12" y="12" width="64" height="20" rx="4" fill="#111111" />
+      <text x="44" y="26" font-family="'Inter', sans-serif" font-size="10" font-weight="700" fill="#E8C547" text-anchor="middle">CHART</text>
+      <text x="86" y="26" class="title" font-size="11">The Broader Visual Umbrella</text>
+      <text x="12" y="48" font-family="'Inter', sans-serif" font-size="10" fill="#444">• Represents categorical, qualitative or structural information</text>
+      <text x="12" y="64" font-family="'Inter', sans-serif" font-size="10" fill="#444">• Does NOT require continuous mathematical coordinate axes</text>
+      <text x="12" y="80" font-family="'Inter', sans-serif" font-size="10" fill="#444">• Examples: Pie Chart, Org Chart, Gantt Chart, Flowchart</text>
+    </g>
+
+    <!-- Graph Block -->
+    <g transform="translate(16, 172)">
+      <rect x="0" y="0" width="314" height="106" rx="8" fill="#FBFBFA" stroke="#EFEFEA" />
+      <rect x="12" y="12" width="64" height="20" rx="4" fill="#E8C547" />
+      <text x="44" y="26" font-family="'Inter', sans-serif" font-size="10" font-weight="800" fill="#111111" text-anchor="middle">GRAPH</text>
+      <text x="86" y="26" class="title" font-size="11">Subcategory with Coordinate Axes</text>
+      <text x="12" y="48" font-family="'Inter', sans-serif" font-size="10" fill="#444">• Specifically plots continuous mathematical relationships</text>
+      <text x="12" y="64" font-family="'Inter', sans-serif" font-size="10" fill="#444">• Every data point is a coordinate pair (X, Y) across Cartesian axes</text>
+      <text x="12" y="80" font-family="'Inter', sans-serif" font-size="10" fill="#444">• Examples: Scatter Plot, Line Graph, Function Curve</text>
+    </g>
+
+    <!-- Golden Rule Banner -->
+    <g transform="translate(16, 290)">
+      <rect x="0" y="0" width="314" height="38" rx="6" fill="#111111" />
+      <text x="157" y="23" font-family="'Inter', sans-serif" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle">"All graphs are charts, but not all charts are graphs."</text>
+    </g>
+  </g>
+
+  <!-- Right: The Data Visualisation Catalogue Taxonomy -->
+  <g transform="translate(402, 88)">
+    <rect width="358" height="344" class="border" />
+    <path d="M 0 12 Q 0 0 12 0 L 346 0 Q 358 0 358 12 L 358 38 L 0 38 Z" fill="#ECECE8" />
+    <rect x="14" y="13" width="6" height="12" rx="3" fill="#E8C547" />
+    <text x="28" y="25" class="title" font-size="11.5">DATA VISUALISATION CATALOGUE TAXONOMY</text>
+
+    <!-- 6 Classification Buckets -->
+    <g transform="translate(14, 48)">
+      <!-- Bucket 1: Comparison -->
+      <g transform="translate(0, 0)">
+        <rect width="158" height="64" rx="6" fill="#FBFBFA" stroke="#EFEFEA" />
+        <rect x="8" y="8" width="4" height="12" rx="2" fill="#E8C547" />
+        <text x="16" y="18" class="title" font-size="10.5">COMPARISON</text>
+        <text x="8" y="34" font-family="'Inter', sans-serif" font-size="9" fill="#555">Bar, Column, Bullet</text>
+        <text x="8" y="48" font-family="'Inter', sans-serif" font-size="8.5" fill="#888">Baseline categorical comparisons</text>
+      </g>
+
+      <!-- Bucket 2: Composition -->
+      <g transform="translate(168, 0)">
+        <rect width="158" height="64" rx="6" fill="#FBFBFA" stroke="#EFEFEA" />
+        <rect x="8" y="8" width="4" height="12" rx="2" fill="#111111" />
+        <text x="16" y="18" class="title" font-size="10.5">COMPOSITION</text>
+        <text x="8" y="34" font-family="'Inter', sans-serif" font-size="9" fill="#555">Pie, Donut, Treemap</text>
+        <text x="8" y="48" font-family="'Inter', sans-serif" font-size="8.5" fill="#888">Part-to-whole relative shares</text>
+      </g>
+
+      <!-- Bucket 3: Distribution -->
+      <g transform="translate(0, 72)">
+        <rect width="158" height="64" rx="6" fill="#FBFBFA" stroke="#EFEFEA" />
+        <rect x="8" y="8" width="4" height="12" rx="2" fill="#111111" />
+        <text x="16" y="18" class="title" font-size="10.5">DISTRIBUTION</text>
+        <text x="8" y="34" font-family="'Inter', sans-serif" font-size="9" fill="#555">Histogram, Boxplot</text>
+        <text x="8" y="48" font-family="'Inter', sans-serif" font-size="8.5" fill="#888">Frequency, spread &amp; outliers</text>
+      </g>
+
+      <!-- Bucket 4: Relationships -->
+      <g transform="translate(168, 72)">
+        <rect width="158" height="64" rx="6" fill="#FBFBFA" stroke="#EFEFEA" />
+        <rect x="8" y="8" width="4" height="12" rx="2" fill="#E8C547" />
+        <text x="16" y="18" class="title" font-size="10.5">RELATIONSHIPS</text>
+        <text x="8" y="34" font-family="'Inter', sans-serif" font-size="9" fill="#555">Scatter, Bubble, Heatmap</text>
+        <text x="8" y="48" font-family="'Inter', sans-serif" font-size="8.5" fill="#888">Bivariate correlation testing</text>
+      </g>
+
+      <!-- Bucket 5: Trends Over Time -->
+      <g transform="translate(0, 144)">
+        <rect width="158" height="64" rx="6" fill="#FBFBFA" stroke="#EFEFEA" />
+        <rect x="8" y="8" width="4" height="12" rx="2" fill="#E8C547" />
+        <text x="16" y="18" class="title" font-size="10.5">TRENDS OVER TIME</text>
+        <text x="8" y="34" font-family="'Inter', sans-serif" font-size="9" fill="#555">Line, Area, Spline</text>
+        <text x="8" y="48" font-family="'Inter', sans-serif" font-size="8.5" fill="#888">Continuous temporal velocity</text>
+      </g>
+
+      <!-- Bucket 6: Geospatial -->
+      <g transform="translate(168, 144)">
+        <rect width="158" height="64" rx="6" fill="#FBFBFA" stroke="#EFEFEA" />
+        <rect x="8" y="8" width="4" height="12" rx="2" fill="#111111" />
+        <text x="16" y="18" class="title" font-size="10.5">GEOSPATIAL / MAPS</text>
+        <text x="8" y="34" font-family="'Inter', sans-serif" font-size="9" fill="#555">Choropleth, Flow, Dot</text>
+        <text x="8" y="48" font-family="'Inter', sans-serif" font-size="8.5" fill="#888">Spatial geographic clustering</text>
+      </g>
+    </g>
+
+    <!-- Source Verification Link -->
+    <g transform="translate(14, 280)">
+      <rect width="326" height="46" rx="6" fill="#F0F0EE" stroke="#DCDCDC" />
+      <text x="12" y="20" class="title" font-size="10">GOOGLE DOC STUDY NOTES VERIFICATION</text>
+      <text x="12" y="34" font-family="monospace" font-size="9" fill="#666">docs.google.com/document/d/1Do7hl1v2UeiZ8u21LTp8x2el1Ze9U4f2...</text>
+    </g>
+  </g>
+
+  <!-- Bottom Strip -->
+  <rect x="40" y="444" width="720" height="34" rx="6" fill="#FFFFFF" stroke="#DCDCDC" />
+  <text x="56" y="465" class="sub" font-size="10">ACADEMIC RESEARCH: SHREYA KASHYAP (23145028) // DEPT. OF COMPUTER SCIENCE, DSVV</text>
+</svg>
